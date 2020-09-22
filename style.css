@@ -1,30 +1,43 @@
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
-.container {
-  display: flex; 
-}
-
-.container > .mazas {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  padding: 100px;
-  /*font-size: 30px;*/
-}
-.row{
+body {
 	display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
+    color: white;
 }
-.row > .didelis {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  padding: 100px;
+header, article, footer, .column {
+	background-color: gray;
+	margin: 1%;
+    padding: 1%;
+    border: 2px solid black;
 }
-
+nav, .ads {
+	background-color: gray;
+}
+header {
+	width: 100%;
+    height: 100px;
+}
+nav {
+	width: 95%;
+	height: 500px;
+}
+.ads {
+    width: 95%;
+}
+article {
+	width: 100%;
+	height: 500px;
+}
+footer {
+	width: 100%;
+	height: 100px;
+}
+.column {
+	width: 20%;
+}
+.column2 {
+	width: 70%;
+}
